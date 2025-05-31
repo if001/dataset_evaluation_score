@@ -1,0 +1,14 @@
+[project]
+name = "dataset-evaluation-score"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets==2.14.6",
+]
+
+[project.optional-dependencies]
+bleu = [
+    "sacrebleu[ja]>=2.5.1",
+]
